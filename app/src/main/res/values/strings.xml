@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CodingConquerer</string>
+    <string name="company">Company</string>
+    <string name="ask_name">What is your name?</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="continue_label">Continue</string>
+    <string name="lesson_list_title">Learning Javascript</string>
+    <string name="enforce_seq_progression">Enforce Sequential Progression</string>
+</resources>

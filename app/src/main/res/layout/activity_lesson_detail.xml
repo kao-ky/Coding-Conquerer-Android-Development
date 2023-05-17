@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="#F2F0F0"
+    android:orientation="vertical"
+    tools:context=".activities.LessonDetailActivity">
+
+    <TextView
+        android:id="@+id/lesson_name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/lesson_length_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/lesson_description_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="25dp"
+        android:justificationMode="inter_word"
+        android:textAlignment="center"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="wrap_content"
+        android:background="#F2F0F0"
+        android:layout_height="180dp" />
+
+    <Button
+        android:id="@+id/watch_lesson_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#01BCC3"
+        android:fontFamily="sans-serif"
+        android:paddingHorizontal="30dp"
+        android:text="Watch Lesson"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+     <TextView
+        android:id="@+id/notes_label_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="8dp"
+        android:text="Notes:"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/notes_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#01BCC3"
+        android:fontFamily="sans-serif"
+        android:padding="8dp"
+        android:text="Save Note"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mark_complete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#01BCC3"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="Mark Complete and Back"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+</LinearLayout>
