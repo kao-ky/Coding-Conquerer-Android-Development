@@ -1,5 +1,5 @@
 # Coding-Conquerer-Android-Development
-An academic group project that creates an Android application for learning programming using Kotlin and Shared Preferences.
+An academic group project that creates an Android application for learning programming using Kotlin and Shared Preferences with dummy data as lesson details.
 
 ## Functions
 - Setup user profile
